@@ -1,0 +1,89 @@
+body {
+	font-family: 'Dancing Script', cursive;
+	font-size: 1em;
+	background-color: #02010a;
+	width: 900px;
+}
+	
+header{
+	width: 100%;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+header h1{
+	text-transform: capitalize;
+	text-shadow: 0 0 2px #5b7989;
+}
+
+header nav{
+	font-size: 1.143em;
+	padding: 10px;
+	text-align: right;
+	word-spacing: 1em;
+}
+
+header nav ul li{
+	list-style: none;
+	text-transform: capitalize;
+	display: inline-block;
+}
+
+header nav a:link, header nav a:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+header nav a:hover, #header nav a:active{
+	text-shadow: none !important;
+}
+
+header nav .active a:link, #header nav .active a:visited {
+	text-shadow: none !important;
+	color: black;
+}
+
+
+#imagenCentral {
+	background-color: #82c3a6;
+	display: flex;
+}
+
+#imagenCentral figure img {
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px #02010a;
+}
+
+#imagenSecundaria {
+	background-color: #d5c75f;
+	display: flex;
+}
+
+#imagenSecundaria figure img {
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px #02010a;
+}
+
+#imagen2:hover {
+	transform: rotate(10deg);
+	box-shadow: 2px 2px 2px 2px #82c3a6;	
+}
+	
+#imagen3:hover {
+	transform: translate(20px, -10px);;
+	box-shadow: 2px 2px 2px 2px #82c3a6;	
+}
+
+#piePagina footer{
+	width: 100%;
+	background-color: #C6d5c5;
+	border: 1px solid #02010a;
+	display: flex;
+	border-radius: 0px 0px 10px 10px;
+	justify-content: space-around;
+}
+

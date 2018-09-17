@@ -181,3 +181,57 @@ img {
 		margin: 0%;
 	}
 }
+
+/* Responsivo */
+@media screen and (max-width: 900px) {
+	#encabezado header{
+		height: 150px;
+		width: 100%;
+	}
+
+	#encabezado header h1{
+		text-align: center;
+	}
+
+	#encabezado header nav{
+		display: inline;
+		width: 80%;
+	}
+
+	#encabezado header nav ul li{
+		text-align: center;
+	}
+
+	#imagenCentral  {
+		display: block;
+	}	
+	#imagenSecundaria {
+		display: block;
+	}
+	#cuerpo {
+		width: 100%;
+	}
+	#imagenCentral figure img {
+		width: 100%;
+	}
+	#imagenSecundaria figure img {
+		width: 100%;
+	}
+	#galeria1,#galeria2 {
+		display: block;
+	}
+	#imagen4,#imagen5,#imagen6,#imagen7,#imagen8,#imagen9 {
+		width: 100%;
+		background-color: #d5c75f;
+		padding: 10px;
+	}
+	#piePagina footer{
+		display: block;
+		width: 100%;
+	}
+	#piePagina footer div {
+		padding: 10px;
+	}
+
+}
+

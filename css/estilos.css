@@ -38,6 +38,7 @@ img {
   	top: 0;
   	left: 0;
 	color: white;
+	animation: slidein 1s;
 }
 
 #encabezado header h1{
@@ -168,3 +169,15 @@ img {
 	justify-content: space-around;
 }
 
+/* animación */
+@-webkit-keyframes slidein {
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin: : -5%;
+	}
+	100% {
+		margin: 0%;
+	}
+}

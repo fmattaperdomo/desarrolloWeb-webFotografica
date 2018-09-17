@@ -83,7 +83,9 @@ img {
 	color: #02010a; 
 }
 
-
+.noActual {
+	color: white;
+}
 
 /* Contenido */
 #imagenCentral {
@@ -139,6 +141,22 @@ img {
 	box-shadow: 2px 2px 2px #02010a;
 	width: 80%;
 }
+
+#imagen4{
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+
+#imagen5, #imagen7,#imagen9{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#imagen6{
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+
 
 /* Pie de página */
 #piePagina footer{

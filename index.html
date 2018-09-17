@@ -2,65 +2,69 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width:device-width,user-scalable=no">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
 	<title>Web Fotografía</title>
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
-	<header>
-		<h1>Comenzando con la fotografía</h1>
-		<nav>
-			<ul>
-				<li><a class="activo" href="index.html">Inicio</a></li>
-				<li><a href="#">Paisajes</a></li>
-				<li><a href="#">Retratos</a></li>
-			</ul>
-		</nav>
-	</header>
 	<div id="contenido">
-		<div id="imagenCentral">
-			<figure>
-				<img src="img/principal.jpg" alt="Imagen Principal" />
-			</figure>	
+		<div id="encabezado">
+			<header>
+				<h1>Comenzando con la fotografía</h1>
+				<nav>
+					<ul>
+						<li><a href="#" class="actual" >Inicio</a></li>
+						<li><a href="paisajes.html">Paisajes</a></li>
+						<li><a href="retratos.html">Retratos</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>	
+		<div id="cuerpo">
+			<div id="imagenCentral">
+				<figure>
+					<img src="img/principal.jpg" alt="Imagen Principal" />
+				</figure>	
+			</div>
+			<div id="imagenSecundaria">
+				<figure>
+					<img id="imagen2" src="img/secundaria1.jpg" alt="Imagen Secundaria1" />
+					<figcaption><a href="paisajes.html">Paisajes</a></figcaption>
+				</figure>
+				<figure>
+					<img id="imagen3" src="img/secundaria2.jpg" alt="Imagen Secundaria2" />
+					<figcaption><a href="retratos.html">Retratos</a></figcaption>
+				</figure>	
+			</div>
 		</div>
-		<div id="imagenSecundaria">
-			<figure>
-				<img id="imagen2" src="img/secundaria1.jpg" alt="Imagen Secundaria1" />
-			</figure>
-			<figure>
-				<img id="imagen3" src="img/secundaria2.jpg" alt="Imagen Secundaria2" />
-			</figure>	
-		</div>
-	</div>
-	<div id="piePagina">
-		<footer>
-			<div id="contacto">
-				<h2>Contacto</h2>
-				<p><strong>fmattaperdomo@gmail.com</strong> <br>
-				Calle 95 No. 71-91 Int. 1 Apt. 701<br>
-				+573002183755
-			</div>
-			<div id="termino">
-				<h2>Término</h2>
-				<p>Aplica politicas y restricciones</p>
-			</div>
-			<div id="redes">
-				<h2>Redes Sociales</h2>
-				<p><strong>Facebook</strong> - fmattaperdomo@facebook.com<br>
-				<strong>Twitter</strong> - @fmattaperdomo<br>
-				
-			</div>
-			<div id="derecho">
-				<h2>Derecho</h2>
-				<p><strong>Francisco Matta Perdomo</strong><br>
-					@copyright - 2018	
-			</div>
+		<div id="piePagina">
+			<footer>
+				<div id="contacto">
+					<h2>Contacto</h2>
+					<p><strong>fmattaperdomo@gmail.com</strong> <br>
+					Calle 95 No. 71-91 Int. 1 Apt. 701<br>
+					+573002183755
+				</div>
+				<div id="termino">
+					<h2>Término</h2>
+					<p>Aplica politicas y restricciones</p>
+				</div>
+				<div id="redes">
+					<h2>Redes Sociales</h2>
+					<p><strong>Facebook</strong> - fmattaperdomo@facebook.com<br>
+					<strong>Twitter</strong> - @fmattaperdomo<br>
+					
+				</div>
+				<div id="derecho">
+					<h2>Derecho</h2>
+					<p><strong>Francisco Matta Perdomo</strong><br>
+						@copyright - 2018	
+				</div>
 
-		</footer>	
+			</footer>	
+		</div>
 	</div>
-	
-		
-	</footer>
 </body>
 </html>

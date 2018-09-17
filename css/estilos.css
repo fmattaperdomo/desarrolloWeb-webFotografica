@@ -1,89 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
 	font-family: 'Dancing Script', cursive;
 	font-size: 1em;
 	background-color: #02010a;
-	width: 900px;
+	margin: 0 auto;
 }
-	
-header{
-	width: 100%;
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#contenido{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#encabezado {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#encabezado header{
 	background-color: #5b7989;
 	border-radius: 10px 10px 0 0;
+	width: 100%;
+	height: 100px;
+  	top: 0;
+  	left: 0;
 	color: white;
-	display: flex;
-	justify-content: space-between;
 }
 
-header h1{
+#encabezado header h1{
 	text-transform: capitalize;
 	text-shadow: 0 0 2px #5b7989;
+	padding: 2%;
+	float: left;
 }
 
-header nav{
+#encabezado header nav{
 	font-size: 1.143em;
-	padding: 10px;
+	padding: 2%;
 	text-align: right;
-	word-spacing: 1em;
+	word-spacing: 1.5em;
+	float: right;
 }
 
-header nav ul li{
+
+#encabezado header nav a, #imagenSecundaria figure figcaption a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+#encabezado header nav ul{
 	list-style: none;
+}
+
+#encabezado header nav ul li{
 	text-transform: capitalize;
 	display: inline-block;
+	float: left;
+	padding: 4%;
 }
 
-header nav a:link, header nav a:visited {
-	display: inline-block;
-	text-decoration: none;
+#encabezado header nav a:link {
 	color: white;
 }
 
-header nav a:hover, #header nav a:active{
-	text-shadow: none !important;
+#imagenSecundaria figure figcaption a:link {
+	color: #02010a;	
 }
 
-header nav .active a:link, #header nav .active a:visited {
-	text-shadow: none !important;
-	color: black;
+#encabezado header nav a:hover, #imagenSecundaria figure figcaption a {
+  color: #02010a;
 }
 
+.actual {
+	color: #02010a; 
+}
 
 #imagenCentral {
 	background-color: #82c3a6;
-	display: flex;
+	flex: center;
+	padding: 4%;
 }
 
 #imagenCentral figure img {
-	width: 100%;
-	box-shadow: 2px 2px 2px 2px #02010a;
+	width: 50%;
+	box-shadow: 2px 2px 2px #02010a;
 }
 
 #imagenSecundaria {
 	background-color: #d5c75f;
 	display: flex;
+	padding: 4%;
 }
 
 #imagenSecundaria figure img {
-	width: 100%;
-	box-shadow: 2px 2px 2px 2px #02010a;
+	width: 60%;
+	box-shadow: 2px 2px 2px #02010a;
+}
+
+#imagenSecundaria figure figcaption{
+	padding: 2%;
+	font-weight: bold;	
+	text-decoration: underline;
+	text-align: center;
 }
 
 #imagen2:hover {
 	transform: rotate(10deg);
-	box-shadow: 2px 2px 2px 2px #82c3a6;	
+	box-shadow: 2px 2px 2px #82c3a6;	
 }
 	
 #imagen3:hover {
 	transform: translate(20px, -10px);;
-	box-shadow: 2px 2px 2px 2px #82c3a6;	
+	box-shadow: 2px 2px 2px #82c3a6;	
 }
 
+
 #piePagina footer{
-	width: 100%;
+	padding: 2%;
 	background-color: #C6d5c5;
 	border: 1px solid #02010a;
-	display: flex;
 	border-radius: 0px 0px 10px 10px;
+	display: flex;
 	justify-content: space-around;
 }
 

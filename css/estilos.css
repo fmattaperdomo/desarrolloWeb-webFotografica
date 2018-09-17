@@ -24,6 +24,7 @@ img {
 	margin: 0 auto;
 }
 
+/* encabezado */
 #encabezado {
   max-width: 1200px;
   margin: 0 auto;
@@ -54,12 +55,10 @@ img {
 	float: right;
 }
 
-
 #encabezado header nav a, #imagenSecundaria figure figcaption a {
   text-decoration: none;
   font-weight: bold;
 }
-
 
 #encabezado header nav ul{
 	list-style: none;
@@ -76,10 +75,6 @@ img {
 	color: white;
 }
 
-#imagenSecundaria figure figcaption a:link {
-	color: #02010a;	
-}
-
 #encabezado header nav a:hover, #imagenSecundaria figure figcaption a {
   color: #02010a;
 }
@@ -88,6 +83,9 @@ img {
 	color: #02010a; 
 }
 
+
+
+/* Contenido */
 #imagenCentral {
 	background-color: #82c3a6;
 	flex: center;
@@ -95,7 +93,7 @@ img {
 }
 
 #imagenCentral figure img {
-	width: 50%;
+	width: 70%;
 	box-shadow: 2px 2px 2px #02010a;
 }
 
@@ -117,6 +115,16 @@ img {
 	text-align: center;
 }
 
+#imagenSecundaria figure figcaption a:link {
+	color: #02010a;	
+}
+
+#galeria1,#galeria2 {
+	background-color: #d5c75f;
+	padding: 4%;
+	display: flex;
+}
+
 #imagen2:hover {
 	transform: rotate(10deg);
 	box-shadow: 2px 2px 2px #82c3a6;	
@@ -127,7 +135,12 @@ img {
 	box-shadow: 2px 2px 2px #82c3a6;	
 }
 
+#imagen4,#imagen5,#imagen6,#imagen7,#imagen8,#imagen9 {
+	box-shadow: 2px 2px 2px #02010a;
+	width: 80%;
+}
 
+/* Pie de página */
 #piePagina footer{
 	padding: 2%;
 	background-color: #C6d5c5;
